@@ -7,15 +7,15 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm python python-pip
 
 # Install .NET SDK
-sudo pacman -S --noconfirm dotnet-sdk
+# sudo pacman -S --noconfirm dotnet-sdk
 
 # Install Node.js (LTS) and npm
 sudo pacman -S --noconfirm nodejs npm
 
 # Install Docker
-sudo pacman -S --noconfirm docker
+# sudo pacman -S --noconfirm docker
 
 # Enable and start Docker service
-sudo systemctl enable --now docker
+# sudo systemctl enable --now docker
 
 echo "Installation complete: Python, .NET, Node.js, Docker"
